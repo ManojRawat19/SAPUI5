@@ -1,0 +1,17 @@
+<!-- <mvc:View controllerName="project.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content />
+    </Page>
+</mvc:View> -->
+
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="project.controller.View1">
+  <App>
+    <Page title="SAP UI5 App with AMD Example">
+      <content>
+        <Button text="Load Modules" press="onLoadModules" />
+      </content>
+    </Page>
+  </App>
+</mvc:View>
